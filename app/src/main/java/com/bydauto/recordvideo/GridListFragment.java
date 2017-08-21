@@ -30,7 +30,7 @@ public class GridListFragment extends Fragment{
 
     @Override
     public View onCreateView(LayoutInflater inflater,  ViewGroup container, Bundle savedInstanceState) {
-        Log.e(TAG, "onCreateView1111");
+        Log.e(TAG, "onCreateView：1111");
         View view = inflater.inflate(R.layout.gridview_layout, container, false);
         initView(view);
         return view;
